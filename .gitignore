@@ -1,0 +1,7 @@
+# ignore everything
+*
+
+# dont ignore spec files
+!*.spec
+!*.desktop
+!*/
