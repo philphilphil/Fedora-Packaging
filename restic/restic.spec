@@ -1,5 +1,5 @@
 Name:    restic
-Version: 0.7.1
+Version: 0.7.2
 Release: 1%{?dist}
 Summary: Backup program
 URL:     https://restic.github.io
@@ -29,6 +29,8 @@ install -p -m 755 %{_builddir}/%{name}-%{version}/%{name} %{buildroot}/%{_bindir
 %license LICENSE
 
 %changelog
+* Sat Sep 16 2017 Philipp Baum <phil@phib.io> - 0.7.2-1
+- New Version
 * Sun Aug 27 2017 Philipp Baum <phil@phib.io> - 0.7.1-1
 - New Version
 * Wed Mar 15 2017 Philipp Baum <phil@phib.io> - 0.5.0-1
